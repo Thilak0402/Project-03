@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/jenkins-parallel-checks.git'
+                git branch: 'main', url: 'https://github.com/Thilak0402/Project-03.git'
             }
         }
         stage('Parallel Checks') {
